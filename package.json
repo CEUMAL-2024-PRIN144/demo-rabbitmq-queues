@@ -1,0 +1,16 @@
+{
+  "name": "demo-rabbitmq-queues",
+  "version": "1.0.0",
+  "description": "Demo of RabbitMQ queues with Node.js and Express",
+  "main": "src/producer.js",
+  "scripts": {
+    "start": "node src/producer.js",
+    "producer": "node src/producer.js",
+    "consumer": "node src/consumer.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^2.2.0",
+    "express": "^5.2.1"
+  }
+}
